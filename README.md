@@ -4,6 +4,10 @@ A full-stack web application for conducting online exams with anti-cheating moni
 
 ## 📋 Features
 
+### 🎨 General Features
+- **Dark/Light Theme**: Toggle between dark and light modes with persistent preference
+- **Responsive Design**: Works seamlessly across different screen sizes
+
 ### 👨‍🎓 Student Features
 - **Authentication**: Secure login with JWT and bcrypt password hashing
 - **Time-bound Exam Access**: Exams available only within start/end time window
@@ -80,7 +84,10 @@ exam-portal/
     │   ├── components/
     │   │   ├── Navbar.js         # Navigation bar
     │   │   ├── Modal.js          # Reusable modal
+    │   │   ├── ThemeToggle.js    # Theme toggle button
     │   │   └── PrivateRoute.js   # Route protection
+    │   ├── context/
+    │   │   └── ThemeContext.js   # Theme state management
     │   ├── pages/
     │   │   ├── Login.js          # Login/Register page
     │   │   ├── StudentDashboard.js    # Student dashboard

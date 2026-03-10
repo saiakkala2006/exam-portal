@@ -1,6 +1,6 @@
 .student-dashboard {
   min-height: 100vh;
-  background: #f5f5f5;
+  background: var(--bg-primary);
 }
 
 .dashboard-section {
@@ -9,20 +9,20 @@
 
 .dashboard-section h2 {
   margin-bottom: 20px;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .exam-card {
-  background: white;
+  background: var(--card-bg);
   border-radius: 8px;
   padding: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .exam-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-lg);
 }
 
 .exam-card h3 {
@@ -37,7 +37,7 @@
 
 .exam-info p {
   margin: 8px 0;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .btn-sm {

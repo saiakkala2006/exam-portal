@@ -1,6 +1,6 @@
 .create-exam-page {
   min-height: 100vh;
-  background: #f5f5f5;
+  background: var(--bg-primary);
   padding-bottom: 50px;
 }
 
@@ -12,14 +12,14 @@
 }
 
 .page-header h2 {
-  color: #333;
+  color: var(--text-primary);
   margin: 0;
 }
 
 .card h3 {
   margin-bottom: 20px;
   color: #667eea;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid var(--border-color);
   padding-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@
 
 .hint {
   margin-top: 10px;
-  color: #666;
+  color: var(--text-secondary);
   font-size: 0.9rem;
   font-style: italic;
 }
@@ -64,7 +64,7 @@
 }
 
 .question-item {
-  background: #f8f9fa;
+  background: var(--bg-tertiary);
   padding: 20px;
   border-radius: 8px;
   border-left: 4px solid #667eea;
@@ -79,13 +79,13 @@
 
 .question-header h4 {
   margin: 0;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1rem;
 }
 
 .question-text {
   margin: 10px 0;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -99,9 +99,9 @@
 .options-list li {
   padding: 8px 12px;
   margin: 5px 0;
-  background: white;
+  background: var(--card-bg);
   border-radius: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
 }
 
 .options-list li.correct {

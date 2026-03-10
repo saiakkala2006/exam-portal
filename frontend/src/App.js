@@ -12,6 +12,7 @@ import Results from './pages/Results';
 
 // Import components
 import PrivateRoute from './components/PrivateRoute';
+import { ThemeProvider } from './context/ThemeContext';
 
 /**
  * Main App Component
@@ -40,9 +41,10 @@ function App() {
   }
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
+    <ThemeProvider>
+      <Router>
+        <div className="App">
+          <Routes>
           {/* Public Routes */}
           <Route path="/login" element={!user ? <Login setUser={setUser} /> : <Navigate to={user.role === 'admin' ? '/admin' : '/dashboard'} />} />
           
@@ -83,8 +85,9 @@ function App() {
           {/* Default Route */}
           <Route path="/" element={<Navigate to="/login" />} />
         </Routes>
-      </div>
-    </Router>
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 

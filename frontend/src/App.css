@@ -1,5 +1,7 @@
 .App {
   min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .loading {
@@ -8,7 +10,7 @@
   align-items: center;
   height: 100vh;
   font-size: 1.5rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 /* Container */
@@ -80,9 +82,11 @@
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--text-primary);
 }
 
 .form-group input:focus,
@@ -94,10 +98,10 @@
 
 /* Card Styles */
 .card {
-  background: white;
+  background: var(--card-bg);
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-sm);
   margin-bottom: 20px;
 }
 
@@ -190,26 +194,27 @@
 .table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: var(--card-bg);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-sm);
 }
 
 .table th,
 .table td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
 }
 
 .table th {
-  background: #f8f9fa;
+  background: var(--bg-tertiary);
   font-weight: 600;
 }
 
 .table tbody tr:hover {
-  background: #f8f9fa;
+  background: var(--bg-tertiary);
 }
 
 /* Grid */
