@@ -141,7 +141,6 @@ The theme system uses:
 - React Context API (React 16.3+)
 
 
-
 ## Future Enhancements
 Potential improvements:
 - Auto theme based on system preferences (prefers-color-scheme media query)
