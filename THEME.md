@@ -142,7 +142,6 @@ The theme system uses:
 
 
 
-
 ## Future Enhancements
 Potential improvements:
 - Auto theme based on system preferences (prefers-color-scheme media query)
