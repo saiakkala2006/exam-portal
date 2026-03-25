@@ -140,7 +140,6 @@ The theme system uses:
 - localStorage API (supported in all modern browsers)
 - React Context API (React 16.3+)
 
-
 ## Future Enhancements
 Potential improvements:
 - Auto theme based on system preferences (prefers-color-scheme media query)
