@@ -10,7 +10,6 @@ const Navbar = ({ user, logout, title }) => {
   return (
     <nav className="navbar">
 
-
       <h2>{title || 'Online Exam Portal'}</h2>
       <div className="navbar-right">
         <span>Welcome, {user?.name}</span>
