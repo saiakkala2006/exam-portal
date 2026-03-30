@@ -10,7 +10,6 @@ import './CreateExam.css';
  */
 
 
-
 const CreateExam = ({ user, logout }) => {
   const navigate = useNavigate();
 
