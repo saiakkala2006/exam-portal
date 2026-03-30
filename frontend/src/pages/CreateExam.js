@@ -8,7 +8,6 @@ import './CreateExam.css';
  * Create Exam Page Component
  * Allows admin to create new exams with questions
  */
-
 const CreateExam = ({ user, logout }) => {
   const navigate = useNavigate();
 
