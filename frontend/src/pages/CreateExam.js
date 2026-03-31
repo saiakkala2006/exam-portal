@@ -12,7 +12,6 @@ const CreateExam = ({ user, logout }) => {
   const navigate = useNavigate();
 
 
-  
 
   const [title, setTitle] = useState('');
   const [duration, setDuration] = useState('');
