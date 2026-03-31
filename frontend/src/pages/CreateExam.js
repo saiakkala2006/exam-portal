@@ -11,8 +11,6 @@ import './CreateExam.css';
 const CreateExam = ({ user, logout }) => {
   const navigate = useNavigate();
 
-
-
   const [title, setTitle] = useState('');
   const [duration, setDuration] = useState('');
   const [startTime, setStartTime] = useState('');
