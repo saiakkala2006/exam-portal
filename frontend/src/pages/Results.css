@@ -3,6 +3,8 @@
   background: var(--bg-primary);
 }
 
+
+
 .results-header {
   display: flex;
   justify-content: space-between;
