@@ -3,8 +3,6 @@
   background: var(--bg-primary);
   color: var(--text-primary);
 }
-
-
 .loading {
   display: flex;
   justify-content: center;
