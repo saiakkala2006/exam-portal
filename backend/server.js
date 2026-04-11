@@ -9,6 +9,7 @@ dotenv.config();
 // Connect to database
 connectDB();
 
+
 // Initialize Express app
 const app = express();
 
