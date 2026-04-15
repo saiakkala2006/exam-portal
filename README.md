@@ -5,7 +5,6 @@ A full-stack web application for conducting online exams with anti-cheating moni
 ## 📋 Features
 
 
-
 ### 🎨 General Features
 - **Dark/Light Theme**: Toggle between dark and light modes with persistent preference
 - **Responsive Design**: Works seamlessly across different screen sizes
