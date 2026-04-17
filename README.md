@@ -12,7 +12,6 @@ A full-stack web application for conducting online exams with anti-cheating moni
 - **Authentication**: Secure login with JWT and bcrypt password hashing
 - **Time-bound Exam Access**: Exams available only within start/end time window
 - **Fullscreen Mode**: Automatic fullscreen when exam starts
-
 - **Timer**: Live countdown with auto-submit when time expires
 - **Question Navigation**: Navigate between questions with Next/Previous
 - **Question Types**: 
