@@ -15,7 +15,6 @@ A full-stack web application for conducting online exams with anti-cheating moni
 - **Timer**: Live countdown with auto-submit when time expires
 
 
-
 - **Question Navigation**: Navigate between questions with Next/Previous
 - **Question Types**: 
   - Multiple Choice Questions (MCQ) - Single answer
