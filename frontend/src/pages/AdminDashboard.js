@@ -15,7 +15,6 @@ const AdminDashboard = ({ user, logout }) => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  
   const [activeTab, setActiveTab] = useState('exams'); // 'exams' or 'users'
   const [showResetModal, setShowResetModal] = useState(false);
   const [selectedUser, setSelectedUser] = useState(null);
