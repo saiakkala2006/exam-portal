@@ -9,7 +9,6 @@ A full-stack web application for conducting online exams with anti-cheating moni
 - **Responsive Design**: Works seamlessly across different screen sizes
 
 ### 👨‍🎓 Student Features
-
 - **Authentication**: Secure login with JWT and bcrypt password hashing
 - **Time-bound Exam Access**: Exams available only within start/end time window
 - **Fullscreen Mode**: Automatic fullscreen when exam starts
