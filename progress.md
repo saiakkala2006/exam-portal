@@ -11,7 +11,6 @@ Implemented a complete dark/light theme toggle system with persistent storage an
 
 ### 1. Theme Context & Components
 - **`frontend/src/context/ThemeContext.js`**
-
   - React Context for global theme state management
   - Theme persistence in localStorage
   - Provides `theme`, `toggleTheme`, and `isDark` values
